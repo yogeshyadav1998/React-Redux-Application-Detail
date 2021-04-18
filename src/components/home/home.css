@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Zen+Dots&display=swap');
+
+.home-main{
+    display: flex;
+    width: 100%;
+}
+
+.home-left{
+    width: 50%;
+    height: 100vh;
+    background: rgb(123, 87, 223);
+}
+
+.home-left-up{
+    height: 40%;
+}
+
+.home-left-up img{
+    width: 40%;
+}
+
+.home-left-down{
+    height: 53vh;
+    background: rgb(84, 51, 177);
+    padding: 3em 5em;
+    text-align: left;
+}
+
+.home-left-down h1{
+    color: white;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.home-left-down img{
+    width: 13%;
+    margin: 2em 10em 2em 1em;
+}
+
+
+.app-name{
+    display: block;
+    text-align: left;
+    margin: 2em 2em;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+
+
+.home-right{
+    width: 50%;
+    height: 100vh;
+}
+
+.home-right-up{
+    width: 95%;
+    height: 25vh;
+    display: flex;
+}
+
+.home-right-up h1{
+    position: relative;
+    top: 70%;
+    margin: 0 1em;
+    height: 20%;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-right-up .setting-logo{
+    position: relative;
+    top: 70%;
+    left: 80%;
+    font-size: 1.7em;
+}
+
+.home-right-down{
+    height: 75vh;
+    overflow: scroll;
+    width: 100%;
+    background: rgb(224, 224, 220);
+    padding: 4vh;
+}
+
+@media only screen and (max-width: 768px){
+    .home-main{
+        display: block;
+    }
+
+    .home-left{
+        width: 100%;
+        height: 50vh;
+        background: rgb(123, 87, 223);
+    }
+
+    .app-name{
+        display: block;
+        text-align: left;
+        margin: 0 2em 2em 2em;
+        padding-top:2em ;
+        text-transform: uppercase;
+        font-family: 'Zen Dots', cursive;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.3em;
+    }
+
+    .home-left-down{
+        display: none;
+    }
+
+    .home-left-up img{
+        width: 60%;
+    }
+
+    .home-right-up{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .home-right-up h1{
+        position: relative;
+        top: 20%;
+        margin: 0 1em;
+        height: 20%;
+        text-align: left;
+        vertical-align: bottom;
+        font-size: 1.7em;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .home-right-up .setting-logo{
+        font-size: 1.7em;
+        position: relative;
+        top: 20%;
+        left: 60%;
+    }
+
+    .home-right{
+        width: 100%;
+    }
+
+    .home-right-down{
+        width: 90%;
+        height: auto;
+        overflow: visible;
+        background: rgb(224, 224, 220);
+        padding: 4vh;
+    }
+}

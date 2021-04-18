@@ -1,0 +1,116 @@
+.appcard-main{
+    height: 25vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3em;
+    background: white;
+}
+
+.profile-section{
+    width: 4em;
+    height: 4em;
+    background: rgb(212, 62, 62);
+    margin: 2em ;
+    border-radius: 10px;
+}
+
+.app-name-section{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+.app-name-section h1{
+    overflow: hidden;
+}
+
+.app-name-section h6{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.app-name-section Button{
+    margin-left: auto;
+    margin-top: 10px;
+    height: 34%;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    background: none;
+
+}
+
+.app-info-section{
+    padding: 1em;
+    display: flex;
+}
+
+.app-info-section .info{
+    width: 20%;
+}
+
+.app-info-section .info p{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.info .info-name{
+    font-size: 0.8em;
+}
+
+.info .info-value{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    .profile-section{
+        width: 3em;
+        height: 3em;
+        background: rgb(212, 62, 62);
+        margin: 1em ;
+        border-radius: 10px;
+    }
+    
+    .app-name-section{
+        display: flex;
+        flex-direction: row;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .app-name-section h1{
+        margin-bottom: 0;
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+    
+    .app-name-section h6{
+        text-align: left;
+        margin-top: 5px;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    
+    .app-name-section Button{
+        margin-left: auto;
+        margin-top: 10px;
+        height: 34%;
+        font-size: 1.5em;
+        cursor: pointer;
+        border: none;
+        background: none;
+    
+    }
+
+    .info .info-name{
+        font-size: 0.6em;
+    }
+    
+    .info .info-value{
+        font-size: 1em;
+        font-weight: bold;
+    }
+}

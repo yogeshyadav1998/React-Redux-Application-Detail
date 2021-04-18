@@ -1,0 +1,34 @@
+.app-details-main{
+    display: block;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    background: rgb(123, 87, 223);
+}
+
+.header .app-name{
+    margin-top: 0;
+    padding-top: 2em ;
+    font-size: 1.5em;
+}
+
+.detail-section .name-section{
+    display: flex;
+}
+
+.detail-section .name-section Button{
+    margin: 1em;
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.details-table{
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid grey;
+}
